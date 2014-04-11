@@ -1,0 +1,3 @@
+### Ben's attempt at project Euler using Julia
+
+Yeah lets see how far this goes...
