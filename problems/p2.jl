@@ -1,6 +1,10 @@
 # Project Euler Problem 2
 # 4-10-14, Ben Southgate
 
+# Question:
+# By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+
+
 f = ( ()-> begin
         a = 1
         b = 1
