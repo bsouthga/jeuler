@@ -11,11 +11,14 @@ b(a) = 1000*(a-500)/(a-1000)
 is_int(x) = (x-floor(x)) == 0
 
 for a=3:999
-	if is_int(b(a)) && b(a) > 0
-		c = (sqrt(a^2 + b(a)^2))
-		println("a=$a, b=$(b(a)), c=$c")
-		println("Product = a*b*c = $(a*b(a)*c)")
-		break
-	end
+  if is_int(b(a)) && b(a) > 0
+    c = (sqrt(a^2 + b(a)^2))
+    println("a=$a, b=$(b(a)), c=$c")
+    println("Product = a*b*c = $(a*b(a)*c)")
+    break
+  end
 end
+
+
+
 
