@@ -18,7 +18,7 @@ function nth_prime(n::Int64)
     if number_is_prime
       prime_list = push!(prime_list, curr_number)
     end
-    curr_number += 1
+    curr_number += 2
   end
   prime_list[end]
 end
